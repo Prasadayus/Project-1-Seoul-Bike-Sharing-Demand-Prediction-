@@ -15,7 +15,7 @@ This project aims to build a predictive model that could predict the number of r
  The dataset can be found at Kaggle website:
  https://www.kaggle.com/datasets/saurabhshahane/seoul-bike-sharing-demand-prediction
 
- ##**Project Summary**:
+ ## **Project Summary**:
  Bike Seoul is a bike sharing service in the city of Seoul, South Korea. It is part of the city's efforts to promote sustainable transportation and reduce traffic congestion. The service allows residents and visitors to rent bicycles at various stations across the city and return them to any other station, providing a convenient and eco-friendly mode of transportation. In recent years, the demand for bike rentals in Seoul has increased, leading to the need for a more efficient and effective way to manage the bike sharing operations. Accurately predicting bike demand is crucial for optimizing fleet management, ensuring the availability of bikes at high-demand locations, and reducing waste and costs.
 
 The main objective of this project is to develop a machine learning model that can accurately predict the demand for bike rentals in Seoul, South Korea, based on historical data and various relevant factors such as weather conditions, time of day, and public holidays. In this project we have used regression analysis techniques to model the bike demand data. The model trained on a large dataset of past bike rental information, along with relevant weather and time data. The model then be tested and evaluated using metrics such as mean squared error and r-squared values. The actual data is from the Seoul city government's open data portal, and this dataset is also available on Kaggle.
@@ -24,7 +24,7 @@ So, our main goal was to achieve an accuracy of at least 85% in the bike demand 
 
 This project not only provided valuable insights into bike demand patterns in Seoul but also demonstrated the practical applications of machine learning in addressing real-world problems. The findings could potentially be extended to other cities with similar bike sharing systems, leading to improved services for bike users and more sustainable transportation systems.
  
-##**Conclusion**:
+## **Conclusion**:
 Customers favour rental motorcycles equally in all seasons.
 
 When there are no holidays, customers choose to rent motorcycles. Customers hardly ever use the bikes they rent while traveling on holiday.
@@ -58,5 +58,5 @@ During the summer and autumn seasons, most people rent bikes. During the winter,
 The use of rented bikes increased by three times in 2018 compared to 2017.
 
 
-###**As a result of the model's high accuracy the XGBoost regression model and Gradient Boosting Regressor is the ideal and well-trained model for forecasting the number of rented bikes required per hour.**
+### **As a result of the model's high accuracy the XGBoost regression model and Gradient Boosting Regressor is the ideal and well-trained model for forecasting the number of rented bikes required per hour.**
 ​
