@@ -1,61 +1,67 @@
 # Project-1-Seoul-Bike-Sharing-Demand-Prediction
 
-This project aims to build a predictive model that could predict the number of rental bikes required for each hour using the Seoul Bike Sharing dataset. Linear regression, Lasso (L1), Ridge (L2),  Decision Tree, Random Forest,Gradient Boost, and XGBoost algorithms are used to build a model to predict the number of rental bikes required for each hour.
+The goal of this project is to use the Seoul Bike Sharing dataset to create a prediction model that can estimate how many rental bikes will be needed for each hour. A model to forecast how many rental bikes will be needed for each hour is constructed using the following algorithms: Linear Regression, Lasso (L1), Ridge (L2), Decision Tree, Random Forest, Gradient Boost, and XGBoost algorithms.
+
 
 ## **Problem Statement**:
- Currently Rental bikes are introduced in many urban cities for the enhancement of mobility comfort. It is 
- important to make the rental bike available and accessible to the public at the right time as it lessens the
- waiting time. Eventually, providing the city with a stable supply of rental bikes becomes a major concern.
- The crucial part is the prediction of bike count required at each hour for the stable supply of rental bikes.
+ Right now In several large cities, rental bikes have been implemented to improve mobility comfort. In order to reduce waiting times, it is crucial that the public have access to the rental bikes at the appropriate times. Eventually, maintaining a steady supply of rental bikes for the city becomes a big priority. Predicting the number of bikes needed each hour to maintain a steady supply of rental bikes is an essential component.
+
 
 ## **Dataset**:
-  The dataset contains weather information (Temperature, Humidity, Windspeed, Visibility, Dewpoint, Solar radiation, 
- Snowfall, Rainfall, the number of bikes rented per hour and date information.
+  The dataset contains weather information (Temperature, Humidity, Windspeed, Visibility, Dewpoint, Solar radiation, Snowfall, Rainfall, the number of bikes rented per hour and date information.
 
  The dataset can be found at Kaggle website:
  https://www.kaggle.com/datasets/saurabhshahane/seoul-bike-sharing-demand-prediction
 
  ## **Project Summary**:
- Bike Seoul is a bike sharing service in the city of Seoul, South Korea. It is part of the city's efforts to promote sustainable transportation and reduce traffic congestion. The service allows residents and visitors to rent bicycles at various stations across the city and return them to any other station, providing a convenient and eco-friendly mode of transportation. In recent years, the demand for bike rentals in Seoul has increased, leading to the need for a more efficient and effective way to manage the bike sharing operations. Accurately predicting bike demand is crucial for optimizing fleet management, ensuring the availability of bikes at high-demand locations, and reducing waste and costs.
+ In Seoul, South Korea, there is a bike rental program called Bike Seoul. It is a component of the city's initiatives to encourage environmentally friendly transportation and lessen gridlock. Bicycle rentals are available to both locals and visitors at many locations across the city, and they may be returned to any other station, making this a convenient and environmentally responsible form of transportation. Bicycle sharing operations in Seoul have to be managed more effectively and efficiently due to the rise in demand for bike rentals in the city in recent years. Reducing waste and expenses, guaranteeing the availability of bikes at high-demand locations, and streamlining fleet management all depend on accurate demand predictions for bicycles.
 
-The main objective of this project is to develop a machine learning model that can accurately predict the demand for bike rentals in Seoul, South Korea, based on historical data and various relevant factors such as weather conditions, time of day, and public holidays. In this project we have used regression analysis techniques to model the bike demand data. The model trained on a large dataset of past bike rental information, along with relevant weather and time data. The model then be tested and evaluated using metrics such as mean squared error and r-squared values. The actual data is from the Seoul city government's open data portal, and this dataset is also available on Kaggle.
 
-So, our main goal was to achieve an accuracy of at least 85% in the bike demand predictions, which would help the city's bike sharing service providers plan their fleet operations more effectively and respond to demand changes in real-time. We have performed lots of regression algorithms like linear regression, random forest, decision tree, gradient boosting , XGB, also we tried to do hyperparameter tuning and cross validation to improve the accuracy of the model. 
+The primary goal of this project is to create a machine learning model that, using historical data and other pertinent variables like the weather, time of day, and public holidays, can reliably forecast the demand for bike rentals in Seoul, South Korea. Regression analysis techniques have been employed in this study to model the data on bike demand. The model was trained using a sizable dataset of historical bike rental data in addition to pertinent time and weather variables. Metrics like mean squared error and r-squared values are then used to test and assess the model. The real dataset comes from the open data portal of the Seoul municipal administration and can also be found on Kaggle.
 
-This project not only provided valuable insights into bike demand patterns in Seoul but also demonstrated the practical applications of machine learning in addressing real-world problems. The findings could potentially be extended to other cities with similar bike sharing systems, leading to improved services for bike users and more sustainable transportation systems.
+
+Our primary objective was to anticipate bike demand with a minimum accuracy of 85% so that the city's bike sharing service providers could better manage their fleet operations and react to variations in demand instantly. In an effort to increase the model's accuracy, we have tested a variety of regression techniques, including gradient boosting, XGB, random forest, gradient regression, and hyperparameter tuning.
  
+
+This study not only offered insightful information about Seoul's bike demand trends, but it also showed how machine learning can be used to solve real-world issues. The results may be applied to other cities with comparable bike sharing programs, resulting in better services for cyclists and more environmentally friendly transit options.
+ 
+
 ## **Conclusion**:
-Customers favour rental motorcycles equally in all seasons.
+In all seasons, customers have equal preference for rental motorcycles.
 
-When there are no holidays, customers choose to rent motorcycles. Customers hardly ever use the bikes they rent while traveling on holiday.
+Customers opt to rent motorcycles when there are no vacations. When on vacation, customers hardly ever use the bikes they rent.
 
-Nearly all consumers preferred to rent bikes during functional hours.
+Almost all customers said they would rather rent bikes during business hours.
 
-Bicycle rentals are popular all month long.
+All month long, renting bicycles is a popular option.
 
-Renting bicycles was not very popular in 2017, but it increased by 83.02 percent in 2018.
+Bicycle rentals rose by 83.02 percent in 2018 despite being relatively unpopular in 2017.
 
-At night, customers do not prefer to use rented bikes.
+Renting bikes at night is not something consumers want to do.
 
-Customers do not prefer rented bikes in the mornings 4 and 5, but from 7, 8, and 9, the use of rented bikes increases, possibly due to working people going to the office, and it is the same in the evenings 5, 6, and 7, because people are travelling from the office to home. Overall, the rented bike was the most frequently used during office in and out times.
 
-Customers mostly use rented bikes for transportation in the evening.
+Customers don't like renting bikes in the mornings (4 and 5), but from 7 to 9 (perhaps because of people going to work), they are more popular. This also applies in the evenings (5, 6, and 7), when people are returning home from the office. All things considered, during business hours, the rental bike was the one that was used the most.
 
-Customers who travel most commonly use rented bikes in the morning at 8 a.m. and in the evening at 6 p.m.
+Renting bikes is how most customers get around in the evenings.
 
-When the humidity level is between 10% and 18%, people prefer to rent bikes. wind speed is between 2 m/s and 3.5 m/s, people consistently use rented bikes, and it is at its peak when wind speed is normal, which is 3.2 m/s.
+Rentable bikes are most frequently used by customers who travel between 8 a.m. and 6 p.m.
 
-Renting a bike is the best option for customers in dew point temperatures ranging from 12°C to 18°C. The use of a rented bike increases with increasing dew point temperatures, but it still reaches normal dew point temperatures.
 
-In the first 10 days of the month, most rented bikes ar used by customers. Customers consistently use rented bikes in the last 15 days of the month.
+People tend to rent bikes when the humidity is between 10% and 18%. People regularly ride rental bikes, and the wind speed ranges from 2 to 3.5 m/s. It peaks at 3.2 m/s when the wind speed is normal.
 
-In June, most rented bikes are used through the year, followed by October. Customers' use of rent bikes is at its peak from April to September.
+For clients, renting a bike is the ideal choice when dew point temperatures are between 12°C and 18°C. While it still reaches normal dew point temperatures, the utilization of a rental bike grows with rising dew point temperatures.
 
-The count of rented bikes on that day is unaffected by the day's visibility, but when visibility exceeds 1750, use of rented bikes increases more than usual.
+The majority of renters utilize their bikes within the first ten days of the month. The final fifteen days of the month are usually when customers use their rental bikes.
 
-During the summer and autumn seasons, most people rent bikes. During the winter, fewer people choose to rent bikes. Even when there is no holiday other than a holiday, people rent bikes. The use of rented bikes on holidays is lower than on non-holiday days.
 
-The use of rented bikes increased by three times in 2018 compared to 2017.
+The majority of motorcycles that are rented out are used from June to October. Rent-a-bike usage is at its highest from April to September.
+
+The number of bikes hired on that particular day is independent of visibility; nonetheless, rental bike usage rises above average when visibility is greater than 1750.
+
+Most people rent bikes in the summer and fall. Fewer individuals opt to rent bikes in the cold. People rent bikes even on days when there isn't a holiday at all. Compared to non-holiday days, fewer people rent bikes on holidays.
+
+Compared to 2017, the number of rental bikes used tripled in 2018.
+
 
 
 ### **As a result of the model's high accuracy the XGBoost regression model and Gradient Boosting Regressor is the ideal and well-trained model for forecasting the number of rented bikes required per hour.**
